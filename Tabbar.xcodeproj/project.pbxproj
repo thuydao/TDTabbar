@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9919C72A1A846C3B00E1F0F9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9919C7291A846C3B00E1F0F9 /* README.md */; };
+		9919C72C1A846C3F00E1F0F9 /* Screen Shot 2015-02-06 at 10.25.45 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9919C72B1A846C3F00E1F0F9 /* Screen Shot 2015-02-06 at 10.25.45 AM.png */; };
 		99E1B55E1A84657E0097D503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E1B55D1A84657E0097D503 /* main.m */; };
 		99E1B5611A84657E0097D503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E1B5601A84657E0097D503 /* AppDelegate.m */; };
 		99E1B5641A84657E0097D503 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E1B5631A84657E0097D503 /* ViewController.m */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9919C7291A846C3B00E1F0F9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9919C72B1A846C3F00E1F0F9 /* Screen Shot 2015-02-06 at 10.25.45 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-02-06 at 10.25.45 AM.png"; sourceTree = "<group>"; };
 		99E1B5581A84657E0097D503 /* Tabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E1B55C1A84657E0097D503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99E1B55D1A84657E0097D503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 		99E1B54F1A84657E0097D503 = {
 			isa = PBXGroup;
 			children = (
+				9919C7291A846C3B00E1F0F9 /* README.md */,
 				99E1B5851A8466D60097D503 /* camera_button_take.png */,
 				99E1B5861A8466D60097D503 /* camera_button_take@2x.png */,
 				99E1B5871A8466D60097D503 /* DailyBoothIcon.png */,
@@ -104,6 +109,7 @@
 				99E1B58C1A8466D60097D503 /* tab_feed@2x.png */,
 				99E1B58D1A8466D60097D503 /* tab_live.png */,
 				99E1B58E1A8466D60097D503 /* tab_live@2x.png */,
+				9919C72B1A846C3F00E1F0F9 /* Screen Shot 2015-02-06 at 10.25.45 AM.png */,
 				99E1B58F1A8466D60097D503 /* tab_messages.png */,
 				99E1B5901A8466D60097D503 /* tab_messages@2x.png */,
 				99E1B5911A8466D60097D503 /* tabBar_cameraButton_ready_matte.png */,
@@ -264,6 +270,7 @@
 				99E1B5931A8466D60097D503 /* camera_button_take.png in Resources */,
 				99E1B5951A8466D60097D503 /* DailyBoothIcon.png in Resources */,
 				99E1B56C1A84657E0097D503 /* LaunchScreen.xib in Resources */,
+				9919C72C1A846C3F00E1F0F9 /* Screen Shot 2015-02-06 at 10.25.45 AM.png in Resources */,
 				99E1B59D1A8466D60097D503 /* tab_messages.png in Resources */,
 				99E1B59A1A8466D60097D503 /* tab_feed@2x.png in Resources */,
 				99E1B59C1A8466D60097D503 /* tab_live@2x.png in Resources */,
@@ -290,6 +297,7 @@
 			files = (
 				99E1B5641A84657E0097D503 /* ViewController.m in Sources */,
 				99E1B5841A8466290097D503 /* TDBaseTabbarViewController.m in Sources */,
+				9919C72A1A846C3B00E1F0F9 /* README.md in Sources */,
 				99E1B5611A84657E0097D503 /* AppDelegate.m in Sources */,
 				99E1B55E1A84657E0097D503 /* main.m in Sources */,
 			);

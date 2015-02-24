@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DCPathButton.h"
 
-@interface TDBaseTabbarViewController : UITabBarController
+@interface TDBaseTabbarViewController : UITabBarController <DCPathButtonDelegate>
 
 
 /**
@@ -35,5 +36,18 @@
  */
 - (void)addCenterButtonWithImage:(UIImage*)buttonImage
                   highlightImage:(UIImage*)highlightImage;
+
+
+#pragma mark - DCPathButtonCenter
+/**
+ *  addCenterDCPathButtonWithImage
+ *
+ *  Create a custom UIButton and add it to the center of our tab bar
+ *  @param buttonImage    UIImage
+ *  @param highlightImage UIImage
+ */
+- (void)addCenterDCPathButtonWithImage:(UIImage*)buttonImage
+                        highlightImage:(UIImage*)highlightImage;
+
 
 @end

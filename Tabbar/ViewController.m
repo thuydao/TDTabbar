@@ -25,7 +25,13 @@
                             [self viewControllerWithTabTitle:@"Profile" image:[UIImage imageNamed:@"tab_feed_profile.png"] viewController:[[UIViewController alloc] init]],
                             [self viewControllerWithTabTitle:@"Messages" image:[UIImage imageNamed:@"tab_messages.png"] viewController:[[UIViewController alloc] init]], nil];
     
-     [self addCenterButtonWithImage:[UIImage imageNamed:@"camera_button_take.png"] highlightImage:[UIImage imageNamed:@"tabBar_cameraButton_ready_matte.png"]];
+     [self addCenterDCPathButtonWithImage:[UIImage imageNamed:@"camera_button_take.png"] highlightImage:[UIImage imageNamed:@"tabBar_cameraButton_ready_matte.png"]];
 }
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.selectedIndex = 2;
+}
+
 
 @end
